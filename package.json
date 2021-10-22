@@ -1,6 +1,6 @@
 {
   "name": "zl-node-cin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "对node的输入流进行封装，从而在控制台进行友好进行字符输入并获取输入结果",
   "main": "index.js",
   "scripts": {
