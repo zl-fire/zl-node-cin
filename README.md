@@ -54,3 +54,14 @@ main(); //执行async入口函数：main
     }); 
 
 ```
+
+## 具体参数说明
+```js
+/**
+ * @function cin
+ * @description 对node的输入流进行封装，从而在控制台友好的进行字符输入并获取输入结果
+ * @param {Function} [callback] 可选参数 callback ，当想以异步回调方式进行调用时就传入callback进行处理
+ * @param {String} [encoding] 可选参数 encoding ，设置输入流的编码方式，默认为utf-8
+ * @returns {Promise} 当以同步方式调用时，会返回一个promise结果
+ */
+```
